@@ -1,4 +1,4 @@
-# Docker OpenTherm Monitor
+# Docker OpenTherm Monitor for armhf
 
 ## Introduction
 The Opentherm Monitor is a small utility that is intended to help you configure and monitor your opentherm gateway (OTGW).
@@ -9,7 +9,7 @@ Depending on your configuration you would start the image with something like:
 ```bash
 docker run -d -p 8080:8080 \
   -v /src/otmonitor/otmonitor.conf:/app/otmonitor.conf
-  basschipper/docker-otmonitor:latest
+  invenis/docker-otmonitor-armhf:latest
 ```
 
 ## More info
