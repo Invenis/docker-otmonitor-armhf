@@ -1,4 +1,4 @@
-FROM resin/raspberrypi3-python:latest
+FROM arm32v7/python:3.6
 
 RUN apt-get update \
   && apt-get install -y wget python3-tk \
